@@ -1,2 +1,2 @@
 # Tetris
-My attempt on making Tetris in Javascript.
+My attempt on making Tetris in JavaScript.
