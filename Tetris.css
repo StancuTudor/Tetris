@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    height: 600px;
+    width: 300px;
+	border: groove;
+}
+
+#board>img{
+	height: 30px;
+	width: 30px;
+}
+
+#instructions{
+	position: fixed;
+	top: 120px;
+	left: 20px;
+	border: groove;
+}
+
+#instructions>p{
+	font-size: 15px;
+	font-family: "Monaco", "Courier New", monospace;
+	margin: 5px;
+}
+
+.menuButton {
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	cursor: pointer;
+}
+
+
+#reloadButton:hover {
+	transform: rotate(360deg);
+	transition: 1s;
+}
+
+#score{
+	font-size: 20px;
+	font-family: "Monaco", "Courier New", monospace;
+}
